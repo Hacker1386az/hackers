@@ -80,6 +80,6 @@ section {
         margin: 5px; /* margin کمتر در موبایل */
     }
     .topic-button span {
-        font-size: 0.5em; /* اندازه فونت کمتر در موبایل */
+        font-size: 1.5em; /* اندازه فونت کمتر در موبایل */
     }
 }
