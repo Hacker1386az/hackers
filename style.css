@@ -73,7 +73,7 @@ section {
 /* Media Query برای موبایل */
 @media (max-width: 600px) {
     h1 {
-        font-size: 1em; /* اندازه فونت کوچکتر در موبایل */
+        font-size: 2.5em; /* اندازه فونت کوچکتر در موبایل */
     }
     .topic-button {
         flex-basis: 45%; /* دکمه‌ها بزرگتر در موبایل */
