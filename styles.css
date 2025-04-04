@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00817c;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align:center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    color: #db1919;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #b80d0d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgba(255, 191, 0, 0.997);
+}
+
+.background-image {
+    background-image: url('ha'); /* عکس بکگراند */
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+header {
+    z-index: 10;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+section {
+    z-index: 10;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topic-button {
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 2px solid #6200ea;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.topic-button img {
+    max-width: 220px; /* اندازه تصویر */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.topic-button span {
+    font-size: 1.5em;
+}
+
+.topic-button:hover {
+    transform: scale(1.05);
+    border-color: #3700b3;
+}
+h2 , p{
+    text-align:right;
+}
+.responsive-image {
+    width: 100%; /* یا هر اندازه دلخواه دیگر مثل 300px */
+    height: auto; /* برای حفظ نسبت تصویر */
+    max-width: 400px; /* حداکثر عرض تصویر */
+}
+.download-button {
+    background-color: #a30707; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align:right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .download-button:hover {
+    background-color: #3e8e41;
+  }
+  link , a{
+    color:#14ff04;
+  }
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
